@@ -6,7 +6,7 @@ public interface EntityService<T> {
 
 	T get(Long id);
 
-	List<T> findAll(Long id);
+	List<T> findAll();
 
 	T delete(Long id);
 

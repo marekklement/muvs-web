@@ -3,6 +3,7 @@ package cz.asmk.muvsweb.entity;
 import java.util.List;
 
 import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -11,18 +12,19 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "user")
-public class User {
+@Table(name = "muvsuser")
+public class MUVSUser {
 
 	@Id
 	@GeneratedValue(strategy= GenerationType.SEQUENCE)
 	private long id;
+	@Column(unique=true)
 	private String username;
 	private String firstName;
 	private String lastName;
 	private String email;
 	private String phoneNumber;
-	@OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+	@OneToMany(mappedBy = "MUVSUser", cascade = CascadeType.ALL)
 	private List<Article> articles;
 
 	public long getId() {

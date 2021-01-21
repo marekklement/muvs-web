@@ -39,8 +39,8 @@ public class Article {
 	private Category category;
 
 	@ManyToOne
-	@JoinColumn(name = "user_id")
-	private User user;
+	@JoinColumn(name = "muvsuser_id")
+	private MUVSUser MUVSUser;
 
 	public long getId() {
 		return id;
@@ -114,11 +114,11 @@ public class Article {
 		this.textCz = textCz;
 	}
 
-	public User getUser() {
-		return user;
+	public MUVSUser getMUVSUser() {
+		return MUVSUser;
 	}
 
-	public void setUser(User user) {
-		this.user = user;
+	public void setMUVSUser(MUVSUser MUVSUser) {
+		this.MUVSUser = MUVSUser;
 	}
 }
