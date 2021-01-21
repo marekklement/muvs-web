@@ -38,7 +38,8 @@ public class MUVSUserServiceImpl implements MUVSUserService {
 	public MUVSUser update(MUVSUser muvsUser) {
 		MUVSUser foundUser = this.get(muvsUser.getId());
 		if(Objects.isNull(foundUser)) throw new IllegalArgumentException("User not found in database!");
-		return muvsUserRepository.save(muvsUser);
+		foundUser = muvsUser;
+		return muvsUserRepository.save(foundUser);
 	}
 
 	@Override

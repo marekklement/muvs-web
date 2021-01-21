@@ -38,6 +38,7 @@ public class CategoryServiceImpl implements CategoryService {
 	public Category update(Category entity) {
 		Category category = this.get(entity.getId());
 		if(Objects.isNull(category)) throw new IllegalArgumentException("User not found in database!");
+		category = entity;
 		return categoryRepository.save(category);
 	}
 

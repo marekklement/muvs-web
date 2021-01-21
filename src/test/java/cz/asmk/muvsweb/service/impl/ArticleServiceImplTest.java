@@ -18,7 +18,7 @@ class ArticleServiceImplTest {
 	private ArticleService articleService;
 
 	@Test
-	public void testNewArticle(){
+	void testNewArticle(){
 		Article article = new Article();
 		article.setTitleCz("Title");
 		article.setTextCz("Test test");
@@ -29,6 +29,65 @@ class ArticleServiceImplTest {
 		// find all - should be just one article
 		List<Article> all = articleService.findAll();
 		assertEquals(all.size(),1);
+		// delete from database
+		articleService.delete(finalArticle.getId());
+	}
+
+	@Test
+	void testUpdateArticle(){
+		Article article = new Article();
+		article.setTitleCz("Title");
+		article.setTextCz("Test test");
+		Article returned = articleService.save(article);
+		// get from service
+		Article finalArticle = articleService.get(returned.getId());
+		assertEquals(article.getTextCz(), finalArticle.getTextCz());
+		// find all - should be just one article
+		finalArticle.setTitleEn("Test title");
+		Article update = articleService.update(finalArticle);
+		assertNotNull(update.getTitleEn());
+		assertEquals(update.getTitleEn(), finalArticle.getTitleEn());
+		Article test = articleService.get(update.getId());
+		assertEquals(test.getTitleEn(), finalArticle.getTitleEn());
+		//
+		articleService.delete(finalArticle.getId());
+	}
+
+	@Test
+	void testGetArticle(){
+		Article article = new Article();
+		article.setTitleCz("Title");
+		article.setTextCz("Test test");
+		Article returned = articleService.save(article);
+		// get from service
+		Article finalArticle = articleService.get(returned.getId());
+		assertEquals(article.getTextCz(), finalArticle.getTextCz());
+		//
+		articleService.delete(finalArticle.getId());
+	}
+
+	@Test
+	void deleteArticle(){
+		Article article = new Article();
+		article.setTitleCz("Title");
+		article.setTextCz("Test test");
+		Article returnedArticle = articleService.save(article);
+		//
+		Article article2 = new Article();
+		article2.setTitleCz("Title2");
+		article2.setTextCz("Test test2");
+		Article returnedArticle2 = articleService.save(article2);
+		//
+		List<Article> all = articleService.findAll();
+		assertEquals(all.size(),2);
+		//
+		articleService.delete(returnedArticle.getId());
+		all = articleService.findAll();
+		assertEquals(all.size(),1);
+		assertEquals(returnedArticle2.getId(), all.get(0).getId());
+		articleService.delete(returnedArticle2.getId());
+		all = articleService.findAll();
+		assertEquals(all.size(),0);
 	}
 
 }

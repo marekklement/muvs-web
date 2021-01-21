@@ -38,6 +38,7 @@ public class ImageServiceImpl implements ImageService {
 	public Image update(Image entity) {
 		Image image = this.get(entity.getId());
 		if(Objects.isNull(image)) throw new IllegalArgumentException("Image not found in database!");
+		image = entity;
 		return imageRepository.save(image);
 	}
 
