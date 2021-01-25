@@ -101,4 +101,20 @@ public class Event {
 	public void setDescription(String description) {
 		this.description = description;
 	}
+
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+		Event event = (Event) o;
+		return id == event.id &&
+				Objects.equals(name, event.name) &&
+				Objects.equals(length, event.length) &&
+				Objects.equals(description, event.description);
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(id, name, length, description);
+	}
 }
