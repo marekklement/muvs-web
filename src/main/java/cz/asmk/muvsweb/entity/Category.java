@@ -1,6 +1,7 @@
 package cz.asmk.muvsweb.entity;
 
 import java.util.List;
+import java.util.Objects;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -9,6 +10,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+
+import cz.asmk.muvsweb.util.LengthUtil;
 
 @Entity
 @Table(name = "category")
@@ -21,6 +24,21 @@ public class Category {
 	private String perexCz;
 	private String titleEn;
 	private String perexEn;
+
+	public Category() {
+	}
+
+	public Category(String titleCz, String perexCz, String titleEn, String perexEn, List<Article> articles) {
+		LengthUtil.checkIfSomeLocationSet(titleCz, titleEn);
+		LengthUtil.checkTitleLength(titleCz, titleEn);
+		LengthUtil.checkIfSomeLocationSet(perexCz, perexEn);
+		LengthUtil.checkPerexLength(perexCz,perexEn);
+		this.titleCz = titleCz;
+		this.perexCz = perexCz;
+		this.titleEn = titleEn;
+		this.perexEn = perexEn;
+		this.articles = articles;
+	}
 
 	@OneToMany(mappedBy = "category", cascade = CascadeType.ALL)
 	private List<Article> articles;
@@ -47,10 +65,9 @@ public class Category {
 
 	public void setTitleCz(String titleCz) {
 
-		if (titleCz == null || titleCz.length() < 2)
-			throw new IllegalArgumentException("Category TitleCz is invalid or too short (minimum 2 letters)");
-		if (titleCz.length() > 50)
-			throw new IllegalArgumentException("Category TitleCz is too long (maximum 50 letters)");
+		boolean check = LengthUtil.checkLength(titleCz, LengthUtil.MINIMAL_TITLE_LENGTH,
+				LengthUtil.MAXIMAL_TITLE_LENGTH);
+		if(!check) throw new IllegalArgumentException(LengthUtil.ARTICLE_TITLE_WRONG_LENGTH);
 		this.titleCz = titleCz;
 	}
 
@@ -60,10 +77,9 @@ public class Category {
 
 	public void setPerexCz(String perexCz) {
 
-		if (perexCz == null || perexCz.length() < 2)
-			throw new IllegalArgumentException("Category PerexCz is invalid or too short (minimum 2 letters)");
-		if (perexCz.length() > 50)
-			throw new IllegalArgumentException("Category PerexCz is too long (maximum 50 letters)");
+		boolean check = LengthUtil.checkLength(perexCz, LengthUtil.MINIMAL_PEREX_LENGTH,
+				LengthUtil.MAXIMAL_PEREX_LENGTH);
+		if(!check) throw new IllegalArgumentException(LengthUtil.ARTICLE_PEREX_WRONG_LENGTH);
 		this.perexCz = perexCz;
 	}
 
@@ -73,10 +89,9 @@ public class Category {
 
 	public void setTitleEn(String titleEn) {
 
-		if (titleEn != null && titleEn.length() < 2)
-			throw new IllegalArgumentException("Category TitleEn is invalid or too short (minimum 2 letters)");
-		if (titleEn != null && titleEn.length() > 50)
-			throw new IllegalArgumentException("Category TitleEn is too long (maximum 50 letters)");
+		boolean check = LengthUtil.checkLength(titleEn, LengthUtil.MINIMAL_TITLE_LENGTH,
+				LengthUtil.MAXIMAL_TITLE_LENGTH);
+		if(!check) throw new IllegalArgumentException(LengthUtil.ARTICLE_TITLE_WRONG_LENGTH);
 		this.titleEn = titleEn;
 	}
 
@@ -85,10 +100,26 @@ public class Category {
 	}
 
 	public void setPerexEn(String perexEn) {
-		if (perexEn != null && perexEn.length() < 2)
-			throw new IllegalArgumentException("Category PerexEn is invalid or too short (minimum 2 letters)");
-		if (perexEn != null && perexEn.length() > 50)
-			throw new IllegalArgumentException("Category PerexEn is too long (maximum 50 letters)");
+		boolean check = LengthUtil.checkLength(perexEn, LengthUtil.MINIMAL_PEREX_LENGTH,
+				LengthUtil.MAXIMAL_PEREX_LENGTH);
+		if(!check) throw new IllegalArgumentException(LengthUtil.ARTICLE_PEREX_WRONG_LENGTH);
 		this.perexEn = perexEn;
+	}
+
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+		Category category = (Category) o;
+		return id == category.id &&
+				Objects.equals(titleCz, category.titleCz) &&
+				Objects.equals(perexCz, category.perexCz) &&
+				Objects.equals(titleEn, category.titleEn) &&
+				Objects.equals(perexEn, category.perexEn);
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(id, titleCz, perexCz, titleEn, perexEn);
 	}
 }

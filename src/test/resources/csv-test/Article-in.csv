@@ -1,0 +1,116 @@
+# ACTS Test Suite Generation: Sun Jan 24 17:02:50 CET 2021
+#  '*' represents don't care value 
+# Degree of interaction coverage: 2
+# Number of parameters: 8
+# Maximum number of values per parameter: 6
+# Number of configurations: 109
+titleCz,textCz,titleEn,textEn,perexCz,perexEn,muvsUser,result
+"",,,So,"","",testUserMuvs,false
+Tento text je ok,,"",Sun,ok,ok,testUserMuvs,true
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,This text is ok,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,,testUserMuvs,true
+,,So,,"",ok,testUserMuvs,true
+"",,Ten,"",ok,,testUserMuvs,true
+Tento text je ok,,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This text is ok,,"",testUserMuvs,true
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,"",,Sun,"",,testUserMuvs,true
+,"","",This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,ok,"",testUserMuvs,false
+"","",This text is ok,,,ok,testUserMuvs,true
+Tento text je ok,"",So,"","",,testUserMuvs,true
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,"",Ten,This text is ok,ok,ok,testUserMuvs,true
+,"",This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,So,,,testUserMuvs,true
+Tento text je ok,On,,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,"",ok,testUserMuvs,true
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,On,"",,ok,"",testUserMuvs,true
+,On,This text is ok,"",,"",testUserMuvs,true
+"",On,So,This text is ok,"",,testUserMuvs,true
+Tento text je ok,On,Ten,So,ok,"",testUserMuvs,true
+"",On,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Sun,,ok,testUserMuvs,true
+,Ona,,,ok,,testUserMuvs,false
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Ona,"","",,ok,testUserMuvs,true
+Tento text je ok,Ona,This text is ok,This text is ok,"","",testUserMuvs,true
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Ona,So,So,ok,ok,testUserMuvs,true
+,Ona,Ten,Sun,,"",testUserMuvs,true
+"",Ona,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,"",,testUserMuvs,true
+Tento text je ok,Tento text je ok,,"",,,testUserMuvs,true
+,Tento text je ok,"",This text is ok,"","",testUserMuvs,false
+"",Tento text je ok,This text is ok,So,ok,ok,testUserMuvs,true
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Tento text je ok,So,Sun,,"",testUserMuvs,true
+,Tento text je ok,Ten,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,"","",testUserMuvs,true
+Tento text je ok,Tento text je ok,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,ok,"",testUserMuvs,true
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,This text is ok,,,testUserMuvs,true
+"",Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,"",So,"",ok,testUserMuvs,false
+,Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This text is ok,Sun,ok,"",testUserMuvs,true
+Tento text je ok,Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,So,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,"",,testUserMuvs,true
+Tento text je ok,Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Ten,,,,testUserMuvs,true
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,"",ok,,testUserMuvs,true
+Tento text je ok,Tento text je ok,"",So,,,testUserMuvs,true
+"",,s,So,"","",testUserMuvs,false
+Tento text je ok,,Too long fffffffffffffffffffffffffffffffffffffffff,Sun,ok,ok,testUserMuvs,false
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,Still longer ffffffffffffffffffffffffffffffffffffff,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,,testUserMuvs,false
+,"",s,,ok,ok,testUserMuvs,false
+"","",Too long fffffffffffffffffffffffffffffffffffffffff,"",,,testUserMuvs,false
+Tento text je ok,"",Still longer ffffffffffffffffffffffffffffffffffffff,This text is ok,"","",testUserMuvs,false
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,On,s,Sun,,,testUserMuvs,false
+,On,Too long fffffffffffffffffffffffffffffffffffffffff,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,"","",testUserMuvs,false
+"",On,Still longer ffffffffffffffffffffffffffffffffffffff,,ok,ok,testUserMuvs,false
+Tento text je ok,Ona,s,"",ok,"",testUserMuvs,false
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Ona,Too long fffffffffffffffffffffffffffffffffffffffff,This text is ok,"",,testUserMuvs,false
+,Ona,Still longer ffffffffffffffffffffffffffffffffffffff,So,"",,testUserMuvs,false
+Tento text je ok,Tento text je ok,s,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,"",,testUserMuvs,false
+,Tento text je ok,Too long fffffffffffffffffffffffffffffffffffffffff,,ok,ok,testUserMuvs,false
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Tento text je ok,Still longer ffffffffffffffffffffffffffffffffffffff,"",,ok,testUserMuvs,false
+,Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,s,This text is ok,"",ok,testUserMuvs,false
+"",Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Too long fffffffffffffffffffffffffffffffffffffffff,So,"","",testUserMuvs,false
+,Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Still longer ffffffffffffffffffffffffffffffffffffff,Sun,,ok,testUserMuvs,false
+"",M,,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,,testUserMuvs,false
+Tento text je ok,M,"",,"","",testUserMuvs,false
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,M,This text is ok,"",ok,ok,testUserMuvs,false
+,M,So,This text is ok,"",ok,testUserMuvs,false
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,M,Ten,So,,ok,testUserMuvs,false
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,M,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Sun,ok,,testUserMuvs,false
+"",Moc dlouhe fffffffffffffffffffffffffffffffffffffffffffffffff,,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,,testUserMuvs,false
+Tento text je ok,Moc dlouhe fffffffffffffffffffffffffffffffffffffffffffffffff,"",,"","",testUserMuvs,false
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Moc dlouhe fffffffffffffffffffffffffffffffffffffffffffffffff,This text is ok,"",ok,ok,testUserMuvs,false
+,Moc dlouhe fffffffffffffffffffffffffffffffffffffffffffffffff,So,This text is ok,,"",testUserMuvs,false
+Tento text je ok,Moc dlouhe fffffffffffffffffffffffffffffffffffffffffffffffff,Ten,So,"",,testUserMuvs,false
+Tento text je ok,Moc dlouhe fffffffffffffffffffffffffffffffffffffffffffffffff,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Sun,ok,"",testUserMuvs,false
+"",Porad dlouhe ffffffffffffffffffffffffffffffffffffffffffffffff,,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,,testUserMuvs,false
+Tento text je ok,Porad dlouhe ffffffffffffffffffffffffffffffffffffffffffffffff,"",,"","",testUserMuvs,false
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Porad dlouhe ffffffffffffffffffffffffffffffffffffffffffffffff,This text is ok,"",ok,ok,testUserMuvs,false
+,Porad dlouhe ffffffffffffffffffffffffffffffffffffffffffffffff,So,This text is ok,ok,ok,testUserMuvs,false
+Tento text je ok,Porad dlouhe ffffffffffffffffffffffffffffffffffffffffffffffff,Ten,So,"","",testUserMuvs,false
+Tento text je ok,Porad dlouhe ffffffffffffffffffffffffffffffffffffffffffffffff,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Sun,"",,testUserMuvs,false
+"",,,G,,,testUserMuvs,false
+Tento text je ok,"","",G,"","",testUserMuvs,false
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,On,This text is ok,G,ok,ok,testUserMuvs,false
+,Ona,So,G,"","",testUserMuvs,false
+Tento text je ok,Tento text je ok,Ten,G,ok,,testUserMuvs,false
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,G,ok,ok,testUserMuvs,false
+"",,,Too long fffffffffffffffffffffffffffffffffffffffffffffffffff,,,testUserMuvs,false
+Tento text je ok,"","",Too long fffffffffffffffffffffffffffffffffffffffffffffffffff,"","",testUserMuvs,false
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,On,This text is ok,Too long fffffffffffffffffffffffffffffffffffffffffffffffffff,ok,ok,testUserMuvs,false
+,Ona,So,Too long fffffffffffffffffffffffffffffffffffffffffffffffffff,"","",testUserMuvs,false
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Tento text je ok,Ten,Too long fffffffffffffffffffffffffffffffffffffffffffffffffff,ok,"",testUserMuvs,false
+,Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Too long fffffffffffffffffffffffffffffffffffffffffffffffffff,"",ok,testUserMuvs,false
+"",,,Still longer ffffffffffffffffffffffffffffffffffffffffffffffff,,,testUserMuvs,false
+Tento text je ok,"","",Still longer ffffffffffffffffffffffffffffffffffffffffffffffff,"","",testUserMuvs,false
+Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,On,This text is ok,Still longer ffffffffffffffffffffffffffffffffffffffffffffffff,ok,ok,testUserMuvs,false
+,Ona,So,Still longer ffffffffffffffffffffffffffffffffffffffffffffffff,ok,ok,testUserMuvs,false
+Tento text je ok,Tento text je ok,Ten,Still longer ffffffffffffffffffffffffffffffffffffffffffffffff,"",ok,testUserMuvs,false
+"",Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Still longer ffffffffffffffffffffffffffffffffffffffffffffffff,,"",testUserMuvs,false
+M,,,This text is ok,,,testUserMuvs,false
+M,"","",So,"","",testUserMuvs,false
+M,On,This text is ok,Sun,ok,ok,testUserMuvs,false
+M,Ona,So,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,"",ok,testUserMuvs,false
+M,Tento text je ok,Ten,,,"",testUserMuvs,false
+M,Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,"","",ok,testUserMuvs,false
+Moc dlouhe fffffffffffffffffffffffffffffffffffffff,,,This text is ok,,,testUserMuvs,false
+Moc dlouhe fffffffffffffffffffffffffffffffffffffff,"","",So,"","",testUserMuvs,false
+Moc dlouhe fffffffffffffffffffffffffffffffffffffff,On,This text is ok,Sun,ok,ok,testUserMuvs,false
+Moc dlouhe fffffffffffffffffffffffffffffffffffffff,Ona,So,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,ok,testUserMuvs,false
+Moc dlouhe fffffffffffffffffffffffffffffffffffffff,Tento text je ok,Ten,,ok,"",testUserMuvs,false
+Moc dlouhe fffffffffffffffffffffffffffffffffffffff,Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,"",,ok,testUserMuvs,false
+Porad dlouhe ffffffffffffffffffffffffffffffffffffff,,,This text is ok,,,testUserMuvs,false
+Porad dlouhe ffffffffffffffffffffffffffffffffffffff,"","",So,"","",testUserMuvs,false
+Porad dlouhe ffffffffffffffffffffffffffffffffffffff,On,This text is ok,Sun,ok,ok,testUserMuvs,false
+Porad dlouhe ffffffffffffffffffffffffffffffffffffff,Ona,So,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,"",ok,testUserMuvs,false
+Porad dlouhe ffffffffffffffffffffffffffffffffffffff,Tento text je ok,Ten,,"","",testUserMuvs,false
+Porad dlouhe ffffffffffffffffffffffffffffffffffffff,Stale ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,"","",,testUserMuvs,false

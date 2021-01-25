@@ -1,0 +1,107 @@
+# ACTS Test Suite Generation: Sun Jan 24 20:55:04 CET 2021
+#  '*' represents don't care value 
+# Degree of interaction coverage: 2
+# Number of parameters: 5
+# Maximum number of values per parameter: 4
+# Number of configurations: 100
+perexCz,perexEn,titleCz,titleEn,result
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok,Value ok,Title is ok,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Ko,Do,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Ak,Pes,YES,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Ako,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok,Ko,YES,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Pes,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Ak,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Title is ok,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Ako,Value ok,Do,true
+Er,This is ok,Pes,Do,true
+Er,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,YES,true
+Er,Ak,Value ok,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,true
+Er,Ako,Ko,Title is ok,true
+Middle value,This is ok,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Do,true
+Middle value,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Value ok,YES,true
+Middle value,Ak,Ko,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,true
+Middle value,Ako,Pes,Title is ok,true
+Middle value,This is ok,Value ok,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Ko,Title is ok,true
+Middle value,Ak,Pes,Do,true
+Middle value,Ako,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,YES,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,Value ok,Title is ok,false
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,Ko,Do,false
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,Pes,YES,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,"",This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,A,Value ok,Title is ok,false
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,Ko,Do,false
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,Pes,YES,false
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,"",Value ok,Title is ok,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,A,Ko,Do,false
+Er,WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,Pes,YES,false
+Er,WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,false
+Er,,Value ok,Title is ok,true
+Er,"",Ko,Do,true
+Er,A,Pes,YES,false
+Middle value,WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,false
+Middle value,WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,Value ok,Title is ok,false
+Middle value,,Ko,Do,true
+Middle value,"",Pes,YES,true
+Middle value,A,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,false
+TestTooLong hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh,This is ok,Value ok,Title is ok,false
+TestTooLong hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Ko,Do,false
+TestTooLong hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh,Ak,Pes,YES,false
+TestTooLong hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh,Ako,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,false
+WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,This is ok,Value ok,Title is ok,false
+WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Ko,Do,false
+WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,Ak,Pes,YES,false
+WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,Ako,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,false
+R,This is ok,Value ok,Title is ok,false
+R,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Ko,Do,false
+R,Ak,Pes,YES,false
+R,Ako,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,false
+,This is ok,Value ok,Title is ok,true
+,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Ko,Do,true
+,Ak,Pes,YES,true
+,Ako,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,true
+"",This is ok,Value ok,Title is ok,true
+"",This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Ko,Do,true
+"",Ak,Pes,YES,true
+"",Ako,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok,WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,Title is ok,false
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,Do,false
+Er,Ak,WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,YES,false
+Middle value,Ako,WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,false
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok,TooTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,Title is ok,false
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,TooTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,Do,false
+Er,Ak,TooTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,YES,false
+Middle value,Ako,TooTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,false
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok,R,Title is ok,false
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,R,Do,false
+Er,Ak,R,YES,false
+Middle value,Ako,R,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,false
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok,,Title is ok,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,Do,true
+Er,Ak,,YES,true
+Middle value,Ako,,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok,"",Title is ok,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,"",Do,true
+Er,Ak,"",YES,true
+Middle value,Ako,"",This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,false
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Value ok,WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,false
+Er,Ak,Ko,WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,false
+Middle value,Ako,Pes,WayTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,false
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,TooTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,false
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Value ok,TooTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,false
+Er,Ak,Ko,TooTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,false
+Middle value,Ako,Pes,TooTooLong bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,false
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Value ok,,true
+Er,Ak,Ko,,true
+Middle value,Ako,Pes,,true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,"",true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Value ok,"",true
+Er,Ak,Ko,"",true
+Middle value,Ako,Pes,"",true
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,D,false
+OkLeng aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,This is ok aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Value ok,D,false
+Er,Ak,Ko,D,false
+Middle value,Ako,Pes,D,false

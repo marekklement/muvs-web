@@ -12,6 +12,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import cz.asmk.muvsweb.util.LengthUtil;
 
 @Entity
 @Table(name = "article")
@@ -40,7 +41,30 @@ public class Article {
 
 	@ManyToOne
 	@JoinColumn(name = "muvsuser_id")
-	private MUVSUser MUVSUser;
+	private MUVSUser muvsUser;
+
+	private static final String AUTHOR_NULL_EXCEPTION = "Article should have author!";
+
+	public Article(){
+
+	}
+
+	public Article(String perexCz, String titleCz, String perexEn, String titleEn, String textCz, String textEn,
+				   List<Image> images, Category category, MUVSUser muvsUser) {
+		LengthUtil.checkIfSomeLocationSet(titleCz, titleEn);
+		LengthUtil.checkTitleLength(titleCz, titleEn);
+		LengthUtil.checkTextLength(textCz, textEn);
+		if(muvsUser == null) throw new IllegalArgumentException(AUTHOR_NULL_EXCEPTION);
+		this.perexCz = perexCz;
+		this.titleCz = titleCz;
+		this.perexEn = perexEn;
+		this.titleEn = titleEn;
+		this.textCz = textCz;
+		this.textEn = textEn;
+		this.images = images;
+		this.category = category;
+		this.muvsUser = muvsUser;
+	}
 
 	public long getId() {
 		return id;
@@ -79,6 +103,9 @@ public class Article {
 	}
 
 	public void setTitleEn(String titleEn) {
+		boolean check = LengthUtil.checkLength(titleEn, LengthUtil.MINIMAL_TITLE_LENGTH,
+				LengthUtil.MAXIMAL_TITLE_LENGTH);
+		if(!check) throw new IllegalArgumentException(LengthUtil.ARTICLE_TITLE_WRONG_LENGTH);
 		this.titleEn = titleEn;
 	}
 
@@ -87,6 +114,9 @@ public class Article {
 	}
 
 	public void setTextEn(String textEn) {
+		boolean check = LengthUtil.checkLength(textEn, LengthUtil.MINIMAL_TEXT_LENGTH,
+				LengthUtil.MAXIMAL_TEXT_LENGTH);
+		if(!check) throw new IllegalArgumentException(LengthUtil.ARTICLE_TEXT_WRONG_LENGTH);
 		this.textEn = textEn;
 	}
 
@@ -103,6 +133,9 @@ public class Article {
 	}
 
 	public void setTitleCz(String titleCz) {
+		boolean check = LengthUtil.checkLength(titleCz, LengthUtil.MINIMAL_TITLE_LENGTH,
+				LengthUtil.MAXIMAL_TITLE_LENGTH);
+		if(!check) throw new IllegalArgumentException(LengthUtil.ARTICLE_TITLE_WRONG_LENGTH);
 		this.titleCz = titleCz;
 	}
 
@@ -111,14 +144,18 @@ public class Article {
 	}
 
 	public void setTextCz(String textCz) {
+		boolean check = LengthUtil.checkLength(textCz, LengthUtil.MINIMAL_TEXT_LENGTH,
+				LengthUtil.MAXIMAL_TEXT_LENGTH);
+		if(!check) throw new IllegalArgumentException(LengthUtil.ARTICLE_TEXT_WRONG_LENGTH);
 		this.textCz = textCz;
 	}
 
 	public MUVSUser getMUVSUser() {
-		return MUVSUser;
+		return muvsUser;
 	}
 
-	public void setMUVSUser(MUVSUser MUVSUser) {
-		this.MUVSUser = MUVSUser;
+	public void setMUVSUser(MUVSUser muvsUser) {
+		if(muvsUser == null) throw new IllegalArgumentException(AUTHOR_NULL_EXCEPTION);
+		this.muvsUser = muvsUser;
 	}
 }

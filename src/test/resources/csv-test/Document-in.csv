@@ -1,0 +1,71 @@
+# ACTS Test Suite Generation: Sun Jan 24 18:39:12 CET 2021
+#  '*' represents don't care value 
+# Degree of interaction coverage: 2
+# Number of parameters: 5
+# Maximum number of values per parameter: 4
+# Number of configurations: 64
+name,location,extension,description,result
+This is ok aaaaaaaaaaaaaaaaaa,thispathtoo,.csv,,true
+This is ok,this/path/is/ok,.csv,"",true
+Valen,thispathtoo,.csv,This is ok as well,true
+This is ok aaaaaaaaaaaaaaaaaa,this/path/is/ok,.csv,Banana,true
+This is ok,thispathtoo,.xml,,true
+Valen,this/path/is/ok,.xml,"",true
+This is ok aaaaaaaaaaaaaaaaaa,this/path/is/ok,.xml,This is ok as well,true
+This is ok,thispathtoo,.xml,Banana,true
+Valen,this/path/is/ok,.docx,,true
+This is ok aaaaaaaaaaaaaaaaaa,thispathtoo,.docx,"",true
+This is ok,thispathtoo,.docx,This is ok as well,true
+Valen,thispathtoo,.docx,Banana,true
+This is ok aaaaaaaaaaaaaaaaaa,this/path/is/ok,.txt,,true
+This is ok,thispathtoo,.txt,"",true
+Valen,thispathtoo,.txt,This is ok as well,true
+This is ok,this/path/is/ok,.txt,Banana,true
+Valen,thispathtoo,,"",false
+Valen,this/path/is/ok,"",This is ok as well,false
+Valen,thispathtoo,.exe,Banana,false
+Valen,this/path/is/ok,.baba,,false
+This is ok aaaaaaaaaaaaaaaaaa,this/path/is/ok,,This is ok as well,false
+This is ok aaaaaaaaaaaaaaaaaa,thispathtoo,"",Banana,false
+This is ok aaaaaaaaaaaaaaaaaa,this/path/is/ok,.exe,,false
+This is ok aaaaaaaaaaaaaaaaaa,thispathtoo,.baba,"",false
+This is ok,thispathtoo,,Banana,false
+This is ok,this/path/is/ok,"",,false
+This is ok,thispathtoo,.exe,"",false
+This is ok,thispathtoo,.baba,This is ok as well,false
+,this/path/is/ok,.csv,Banana,false
+,thispathtoo,.xml,,false
+,this/path/is/ok,.docx,"",false
+,this/path/is/ok,.txt,This is ok as well,false
+"",this/path/is/ok,.csv,Banana,false
+"",thispathtoo,.xml,,false
+"",this/path/is/ok,.docx,"",false
+"",this/path/is/ok,.txt,This is ok as well,false
+mama,this/path/is/ok,.csv,Banana,false
+mama,thispathtoo,.xml,,false
+mama,this/path/is/ok,.docx,"",false
+mama,this/path/is/ok,.txt,This is ok as well,false
+oko,this/path/is/ok,.csv,Banana,false
+oko,thispathtoo,.xml,,false
+oko,this/path/is/ok,.docx,"",false
+oko,thispathtoo,.txt,This is ok as well,false
+Too long ffffffffffffffffffffff,this/path/is/ok,.csv,Banana,false
+Too long ffffffffffffffffffffff,thispathtoo,.xml,,false
+Too long ffffffffffffffffffffff,this/path/is/ok,.docx,"",false
+Too long ffffffffffffffffffffff,this/path/is/ok,.txt,This is ok as well,false
+Still longer fffffffffffffffff,this/path/is/ok,.csv,Banana,false
+Still longer fffffffffffffffff,thispathtoo,.xml,,false
+Still longer fffffffffffffffff,this/path/is/ok,.docx,"",false
+Still longer fffffffffffffffff,thispathtoo,.txt,This is ok as well,false
+Valen,,.csv,Banana,false
+This is ok aaaaaaaaaaaaaaaaaa,,.xml,,false
+This is ok,,.docx,"",false
+Valen,,.txt,This is ok as well,false
+Valen,"",.csv,Banana,false
+This is ok aaaaaaaaaaaaaaaaaa,"",.xml,,false
+This is ok,"",.docx,"",false
+Valen,"",.txt,This is ok as well,false
+This is ok,thispathtoo,,,false
+Valen,this/path/is/ok,"","",false
+Valen,this/path/is/ok,.exe,This is ok as well,false
+This is ok,thispathtoo,.baba,Banana,false

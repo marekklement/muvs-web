@@ -1,0 +1,286 @@
+# ACTS Test Suite Generation: Sun Jan 24 20:06:30 CET 2021
+#  '*' represents don't care value 
+# Degree of interaction coverage: 3
+# Number of parameters: 6
+# Maximum number of values per parameter: 5
+# Number of configurations: 279
+username,firstname,lastname,phonenumber,email,result
+drako,,,123456789,marek@klement.cz,true
+drako,,"",987 654 321,marek@klement.cz,true
+drako,,Petracek,123456789,marek@klement.cz,true
+drako,"",,987 654 321,marek@klement.cz,true
+drako,"","",123456789,marek@klement.cz,true
+drako,"",Petracek,987 654 321,marek@klement.cz,true
+drako,Komoro,,123456789,marek@klement.cz,true
+drako,Komoro,"",987 654 321,marek@klement.cz,true
+drako,Komoro,Petracek,123456789,marek@klement.cz,true
+kosmas,,,987 654 321,marek@klement.cz,true
+kosmas,,"",123456789,marek@klement.cz,true
+kosmas,,Petracek,987 654 321,marek@klement.cz,true
+kosmas,"",,123456789,marek@klement.cz,true
+kosmas,"","",987 654 321,marek@klement.cz,true
+kosmas,"",Petracek,123456789,marek@klement.cz,true
+kosmas,Komoro,,987 654 321,marek@klement.cz,true
+kosmas,Komoro,"",123456789,marek@klement.cz,true
+kosmas,Komoro,Petracek,987 654 321,marek@klement.cz,true
+superbaaaaaaaaaaaaaaaaaaaaaaad,,,123456789,marek@klement.cz,true
+superbaaaaaaaaaaaaaaaaaaaaaaad,,"",987 654 321,marek@klement.cz,true
+superbaaaaaaaaaaaaaaaaaaaaaaad,,Petracek,123456789,marek@klement.cz,true
+superbaaaaaaaaaaaaaaaaaaaaaaad,"",,987 654 321,marek@klement.cz,true
+superbaaaaaaaaaaaaaaaaaaaaaaad,"","",123456789,marek@klement.cz,true
+superbaaaaaaaaaaaaaaaaaaaaaaad,"",Petracek,987 654 321,marek@klement.cz,true
+superbaaaaaaaaaaaaaaaaaaaaaaad,Komoro,,123456789,marek@klement.cz,true
+superbaaaaaaaaaaaaaaaaaaaaaaad,Komoro,"",987 654 321,marek@klement.cz,true
+superbaaaaaaaaaaaaaaaaaaaaaaad,Komoro,Petracek,987 654 321,marek@klement.cz,true
+superbaaaaaaaaaaaaaaaaaaaaaad,,,123456789,marek@klement.cz,true
+superbaaaaaaaaaaaaaaaaaaaaaad,,"",987 654 321,marek@klement.cz,true
+superbaaaaaaaaaaaaaaaaaaaaaad,,Petracek,123456789,marek@klement.cz,true
+superbaaaaaaaaaaaaaaaaaaaaaad,"",,987 654 321,marek@klement.cz,true
+superbaaaaaaaaaaaaaaaaaaaaaad,"","",123456789,marek@klement.cz,true
+superbaaaaaaaaaaaaaaaaaaaaaad,"",Petracek,987 654 321,marek@klement.cz,true
+superbaaaaaaaaaaaaaaaaaaaaaad,Komoro,,123456789,marek@klement.cz,true
+superbaaaaaaaaaaaaaaaaaaaaaad,Komoro,"",987 654 321,marek@klement.cz,true
+superbaaaaaaaaaaaaaaaaaaaaaad,Komoro,Petracek,123456789,marek@klement.cz,true
+marenna96,,,123456789,marek@klement.cz,true
+marenna96,,"",987 654 321,marek@klement.cz,true
+marenna96,,Petracek,123456789,marek@klement.cz,true
+marenna96,"",,987 654 321,marek@klement.cz,true
+marenna96,"","",123456789,marek@klement.cz,true
+marenna96,"",Petracek,987 654 321,marek@klement.cz,true
+marenna96,Komoro,,123456789,marek@klement.cz,true
+marenna96,Komoro,"",987 654 321,marek@klement.cz,true
+marenna96,Komoro,Petracek,123456789,marek@klement.cz,true
+drako,@skarda,,123456789,marek@klement.cz,false
+drako,*/432,"",987 654 321,marek@klement.cz,false
+drako,695,Petracek,123456789,marek@klement.cz,false
+drako,,,987 654 321,petr@@google.xyz,false
+drako,"","",123456789,petr@@google.xyz,false
+drako,Komoro,Petracek,987 654 321,petr@@google.xyz,false
+drako,,,123456789,marek klement,false
+drako,"","",987 654 321,marek klement,false
+drako,Komoro,Petracek,123456789,marek klement,false
+drako,,,987 654 321,standa.omacka,false
+drako,"","",123456789,standa.omacka,false
+drako,Komoro,Petracek,987 654 321,standa.omacka,false
+drako,,,123456789,@#$%,false
+drako,"","",987 654 321,@#$%,false
+drako,Komoro,Petracek,123456789,@#$%,false
+kosmas,@skarda,"",987 654 321,marek@klement.cz,false
+kosmas,*/432,,123456789,marek@klement.cz,false
+kosmas,695,,987 654 321,marek@klement.cz,false
+kosmas,,Petracek,123456789,petr@@google.xyz,false
+kosmas,"","",987 654 321,petr@@google.xyz,false
+kosmas,Komoro,,123456789,petr@@google.xyz,false
+kosmas,,Petracek,987 654 321,marek klement,false
+kosmas,"","",123456789,marek klement,false
+kosmas,Komoro,,987 654 321,marek klement,false
+kosmas,,Petracek,123456789,standa.omacka,false
+kosmas,"","",987 654 321,standa.omacka,false
+kosmas,Komoro,,123456789,standa.omacka,false
+kosmas,,Petracek,987 654 321,@#$%,false
+kosmas,"","",123456789,@#$%,false
+kosmas,Komoro,,987 654 321,@#$%,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,@skarda,Petracek,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,*/432,Petracek,987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,695,"",123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,,"",987 654 321,petr@@google.xyz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,"",,123456789,petr@@google.xyz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,Komoro,Petracek,123456789,petr@@google.xyz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,,"",987 654 321,marek klement,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,"",,123456789,marek klement,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,Komoro,Petracek,123456789,marek klement,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,,"",987 654 321,standa.omacka,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,"",,123456789,standa.omacka,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,Komoro,Petracek,123456789,standa.omacka,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,,"",987 654 321,@#$%,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,"",,123456789,@#$%,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,Komoro,Petracek,123456789,@#$%,false
+superbaaaaaaaaaaaaaaaaaaaaaad,@skarda,,987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,*/432,"",123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,695,Petracek,987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,,,123456789,petr@@google.xyz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,"",Petracek,987 654 321,petr@@google.xyz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,Komoro,"",123456789,petr@@google.xyz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,,,123456789,marek klement,false
+superbaaaaaaaaaaaaaaaaaaaaaad,"",Petracek,987 654 321,marek klement,false
+superbaaaaaaaaaaaaaaaaaaaaaad,Komoro,"",123456789,marek klement,false
+superbaaaaaaaaaaaaaaaaaaaaaad,,,123456789,standa.omacka,false
+superbaaaaaaaaaaaaaaaaaaaaaad,"",Petracek,987 654 321,standa.omacka,false
+superbaaaaaaaaaaaaaaaaaaaaaad,Komoro,"",123456789,standa.omacka,false
+superbaaaaaaaaaaaaaaaaaaaaaad,,,123456789,@#$%,false
+superbaaaaaaaaaaaaaaaaaaaaaad,"",Petracek,987 654 321,@#$%,false
+superbaaaaaaaaaaaaaaaaaaaaaad,Komoro,"",987 654 321,@#$%,false
+marenna96,@skarda,"",123456789,marek@klement.cz,false
+marenna96,*/432,,987 654 321,marek@klement.cz,false
+marenna96,695,,123456789,marek@klement.cz,false
+marenna96,,Petracek,987 654 321,petr@@google.xyz,false
+marenna96,"","",123456789,petr@@google.xyz,false
+marenna96,Komoro,,987 654 321,petr@@google.xyz,false
+marenna96,,Petracek,987 654 321,marek klement,false
+marenna96,"","",123456789,marek klement,false
+marenna96,Komoro,,987 654 321,marek klement,false
+marenna96,,Petracek,987 654 321,standa.omacka,false
+marenna96,"","",123456789,standa.omacka,false
+marenna96,Komoro,,123456789,standa.omacka,false
+marenna96,,Petracek,987 654 321,@#$%,false
+marenna96,"","",123456789,@#$%,false
+marenna96,Komoro,,987 654 321,@#$%,false
+drak,,Petracek,987 654 321,marek@klement.cz,false
+drak,"","",123456789,marek@klement.cz,false
+drak,Komoro,,987 654 321,marek@klement.cz,false
+,,Petracek,123456789,marek@klement.cz,false
+,"","",987 654 321,marek@klement.cz,false
+,Komoro,,123456789,marek@klement.cz,false
+"",,Petracek,987 654 321,marek@klement.cz,false
+"","","",123456789,marek@klement.cz,false
+"",Komoro,,987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaad,,Petracek,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaad,"","",987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaad,Komoro,,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaaad,,Petracek,987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaaad,"","",123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaaad,Komoro,,987 654 321,marek@klement.cz,false
+drako,,Petracek,panama5687,marek@klement.cz,false
+drako,"","",panama5687,marek@klement.cz,false
+drako,Komoro,,panama5687,marek@klement.cz,false
+drako,,Petracek,$%#@%,marek@klement.cz,false
+drako,"","",$%#@%,marek@klement.cz,false
+drako,Komoro,,$%#@%,marek@klement.cz,false
+drako,,Petracek,hokej,marek@klement.cz,false
+drako,"","",hokej,marek@klement.cz,false
+drako,Komoro,,hokej,marek@klement.cz,false
+drak,,,123456789,marek@klement.cz,false
+"",,,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaaad,,,123456789,marek@klement.cz,false
+,"",Petracek,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaad,"","",123456789,marek@klement.cz,false
+drak,Komoro,Petracek,123456789,marek@klement.cz,false
+"",Komoro,Petracek,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaaad,Komoro,Petracek,123456789,marek@klement.cz,false
+kosmas,@skarda,Petracek,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,@skarda,"",123456789,marek@klement.cz,false
+drako,*/432,Petracek,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,*/432,"",123456789,marek@klement.cz,false
+marenna96,*/432,"",123456789,marek@klement.cz,false
+kosmas,695,"",123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,695,,123456789,marek@klement.cz,false
+,,,987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaad,,,987 654 321,marek@klement.cz,false
+drak,"","",987 654 321,marek@klement.cz,false
+"","",Petracek,987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaaad,"","",987 654 321,marek@klement.cz,false
+,Komoro,Petracek,987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaad,Komoro,Petracek,987 654 321,marek@klement.cz,false
+drako,@skarda,Petracek,987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,@skarda,,987 654 321,marek@klement.cz,false
+marenna96,@skarda,,987 654 321,marek@klement.cz,false
+kosmas,*/432,"",987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,*/432,,987 654 321,marek@klement.cz,false
+drako,695,"",987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,695,Petracek,987 654 321,marek@klement.cz,false
+marenna96,695,"",987 654 321,marek@klement.cz,false
+kosmas,,,panama5687,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,,"",panama5687,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,,Petracek,panama5687,marek@klement.cz,false
+marenna96,,,panama5687,marek@klement.cz,false
+kosmas,"",Petracek,panama5687,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,"",,panama5687,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,"","",panama5687,marek@klement.cz,false
+marenna96,"","",panama5687,marek@klement.cz,false
+kosmas,Komoro,"",panama5687,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,Komoro,Petracek,panama5687,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,Komoro,,panama5687,marek@klement.cz,false
+marenna96,Komoro,Petracek,panama5687,marek@klement.cz,false
+kosmas,,,$%#@%,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,,"",$%#@%,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,,Petracek,$%#@%,marek@klement.cz,false
+marenna96,,,$%#@%,marek@klement.cz,false
+kosmas,"",Petracek,$%#@%,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,"",,$%#@%,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,"","",$%#@%,marek@klement.cz,false
+marenna96,"","",$%#@%,marek@klement.cz,false
+kosmas,Komoro,"",$%#@%,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,Komoro,Petracek,$%#@%,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,Komoro,,$%#@%,marek@klement.cz,false
+marenna96,Komoro,Petracek,$%#@%,marek@klement.cz,false
+kosmas,,,hokej,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,,"",hokej,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,,Petracek,hokej,marek@klement.cz,false
+marenna96,,,hokej,marek@klement.cz,false
+kosmas,"",Petracek,hokej,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,"",,hokej,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,"","",hokej,marek@klement.cz,false
+marenna96,"","",hokej,marek@klement.cz,false
+kosmas,Komoro,"",hokej,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,Komoro,Petracek,hokej,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,Komoro,,hokej,marek@klement.cz,false
+marenna96,Komoro,Petracek,hokej,marek@klement.cz,false
+drako,,1234,123456789,marek@klement.cz,false
+kosmas,"",1234,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,Komoro,1234,123456789,marek@klement.cz,false
+drako,,1234,987 654 321,marek@klement.cz,false
+kosmas,"",1234,987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,Komoro,1234,987 654 321,marek@klement.cz,false
+drako,,%$^,123456789,marek@klement.cz,false
+kosmas,"",%$^,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,Komoro,%$^,123456789,marek@klement.cz,false
+drako,,%$^,987 654 321,marek@klement.cz,false
+kosmas,"",%$^,987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,Komoro,%$^,987 654 321,marek@klement.cz,false
+,,"",123456789,marek@klement.cz,false
+"",,"",987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,,1234,123456789,marek@klement.cz,false
+marenna96,,1234,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,"",1234,987 654 321,marek@klement.cz,false
+marenna96,"",1234,987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,,%$^,123456789,marek@klement.cz,false
+marenna96,,%$^,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,"",%$^,987 654 321,marek@klement.cz,false
+marenna96,"",%$^,987 654 321,marek@klement.cz,false
+drak,"",,123456789,marek@klement.cz,false
+,"",,987 654 321,marek@klement.cz,false
+"","",,987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaad,"",,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaaad,"",,987 654 321,marek@klement.cz,false
+kosmas,@skarda,,987 654 321,marek@klement.cz,false
+drako,*/432,,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,*/432,,123456789,marek@klement.cz,false
+drako,695,,987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,695,,987 654 321,marek@klement.cz,false
+drak,,"",987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaad,,"",123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaaad,,"",987 654 321,marek@klement.cz,false
+drak,Komoro,"",987 654 321,marek@klement.cz,false
+,Komoro,"",123456789,marek@klement.cz,false
+"",Komoro,"",987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaad,Komoro,"",123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaaad,Komoro,"",123456789,marek@klement.cz,false
+drako,@skarda,"",123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,@skarda,"",987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,695,"",987 654 321,marek@klement.cz,false
+drak,"",Petracek,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaad,"",Petracek,987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaaaad,"",Petracek,987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,@skarda,Petracek,123456789,marek@klement.cz,false
+marenna96,@skarda,Petracek,123456789,marek@klement.cz,false
+kosmas,*/432,Petracek,987 654 321,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,*/432,Petracek,987 654 321,marek@klement.cz,false
+marenna96,*/432,Petracek,123456789,marek@klement.cz,false
+kosmas,695,Petracek,987 654 321,marek@klement.cz,false
+marenna96,695,Petracek,123456789,marek@klement.cz,false
+kosmas,,1234,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,,1234,123456789,marek@klement.cz,false
+drako,"",1234,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,"",1234,123456789,marek@klement.cz,false
+drako,Komoro,1234,123456789,marek@klement.cz,false
+kosmas,Komoro,1234,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,Komoro,1234,987 654 321,marek@klement.cz,false
+marenna96,Komoro,1234,987 654 321,marek@klement.cz,false
+kosmas,,%$^,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,,%$^,987 654 321,marek@klement.cz,false
+drako,"",%$^,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaaad,"",%$^,987 654 321,marek@klement.cz,false
+drako,Komoro,%$^,123456789,marek@klement.cz,false
+kosmas,Komoro,%$^,123456789,marek@klement.cz,false
+superbaaaaaaaaaaaaaaaaaaaaaad,Komoro,%$^,123456789,marek@klement.cz,false
+marenna96,Komoro,%$^,987 654 321,marek@klement.cz,false

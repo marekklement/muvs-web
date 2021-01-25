@@ -1,0 +1,18 @@
+# ACTS Test Suite Generation: Sun Jan 24 21:45:38 CET 2021
+#  '*' represents don't care value 
+# Degree of interaction coverage: 1
+# Number of parameters: 7
+# Maximum number of values per parameter: 4
+# Number of configurations: 11
+title,url,urlThumb,descriptionCz,descriptionEn,ordering,result
+55,another/ok/url,noValue,EnglTocz,Descr,698547,true
+Kos,some/url,someValue,SomeDesc sss,AnotherDescription,1,true
+new-image,another/ok/url,someValue,EnglTocz,Descr,1,true
+Thissisookaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,some/url,noValue,EnglTocz,AnotherDescription,1,true
+5,some/url,noValue,EnglTocz,AnotherDescription,698547,false
+,another/ok/url,someValue,SomeDesc sss,Descr,698547,false
+"",some/url,noValue,SomeDesc sss,AnotherDescription,1,false
+WayTooLongbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,another/ok/url,someValue,EnglTocz,AnotherDescription,1,false
+TooTooLongbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,some/url,noValue,EnglTocz,AnotherDescription,1,false
+new-image,,someValue,SomeDesc sss,Descr,698547,false
+new-image,"",noValue,EnglTocz,Descr,698547,false
