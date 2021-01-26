@@ -9,23 +9,15 @@ jobs:
     name: Setup Database
     runs-on: ubuntu-latest
     services:
-      alias: localhost
       postgres:
         image: postgres:latest
         env:
           POSTGRES_DB: muvsdb
           POSTGRES_PASSWORD: muvsadmin
           POSTGRES_USER: muvsadmin
+          POSTGRES_HOST_AUTH_METHOD: trust
         ports:
           - 5432:5432
-        options: >-
-          --health-cmd pg_isready
-          --health-interval 10s
-          --health-timeout 5s
-          --health-retries 5
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v2
 
   build:
     name: Build project
