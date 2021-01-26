@@ -25,10 +25,6 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
-      - name: Install dependencies
-        run: npm install pg
-      - name: Populate Database
-        run: node client.js
 
   build:
     name: Build project
